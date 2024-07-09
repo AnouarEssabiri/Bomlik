@@ -74,9 +74,7 @@
         margin: 0 auto;
         padding: 15px;
     }
-    body{
-        touch-action:pan-y;
-    }
+
     .maintenance-page{
         display: none;
     }
