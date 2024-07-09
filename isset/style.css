@@ -67,9 +67,11 @@
 }
             
 @media (max-width: 599px) {
-    .maintenance-page{
+            
+    .maintenance-page {
         display: none;
     }
+    
     .container {
         margin: 0 auto;
         padding: 15px;
