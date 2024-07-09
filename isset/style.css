@@ -31,6 +31,41 @@
     animation-timeline: view();
     animation-range: entry cover 40%;
 }
+@media (min-width: 599px) {
+    body{
+        background-image: url();
+        background-repeat: no-repeat;
+        background-size: cover;
+        /* background-position: center; */
+    }
+    header,section{
+        display: none;
+    }
+    .maintenance-page {
+        text-align: center;
+        font-family: Arial, sans-serif;
+        color: #333;
+        margin: 50px;
+      }
+      
+      .maintenance-page h1 {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        color: #FF0000;
+      }
+      
+      .maintenance-page p {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      
+      .maintenance-page span {
+        font-weight: bold;
+        color: #9BEC00;
+      }
+}
+            
 @media (max-width: 599px) {
     .container {
         margin: 0 auto;
