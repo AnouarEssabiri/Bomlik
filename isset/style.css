@@ -38,9 +38,11 @@
         background-size: cover;
         /* background-position: center; */
     }
-    header,section,footer{
+            
+    header,section,footer {
         display: none;
     }
+            
     .maintenance-page {
         text-align: center;
         font-family: Arial, sans-serif;
